@@ -1,0 +1,26 @@
+{
+    "name": "bestower/contact",
+    "description": "this will send to email to admin save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "usama165",
+            "email": "usamasheikh833@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "bestower\\contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "bestower\\contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
